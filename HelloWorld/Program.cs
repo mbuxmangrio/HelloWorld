@@ -7,7 +7,7 @@ namespace HelloWorld
         static void Main(string[] args)
         { // entry point of execution
 
-
+            Console.WriteLine("Hello, this is a new branch [edit-somecode]");
             // Type Conversion & Casting.  
             int in1 = 500;
             long lo1;

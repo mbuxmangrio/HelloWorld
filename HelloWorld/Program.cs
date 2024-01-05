@@ -227,7 +227,38 @@ namespace HelloWorld
             Console.WriteLine($"Age: {humanAge}");
             Console.WriteLine($"Mobile#: {mobileNo}");
 
-           
+            // C# Type Conversion in-built Methods.
+
+            var a1 = 0;
+            var a2 = 45.67;
+            var a3 = 34500;
+
+            Console.WriteLine($"Convert an int into boolean: {Convert.ToBoolean(a1)}");
+            Console.WriteLine($"Convert a double into an int: {Convert.ToInt32(a2)}");
+            Console.WriteLine($"Convert an int into an string: {Convert.ToString(a3) + 100}");
+
+            const double pi = 3.14;
+            Console.WriteLine($"CONST PI: {pi}");
+
+            const string stdName = "AIJAZ ALI";
+            Console.WriteLine($"CONST stdName: {stdName}");
+
+            //Console.Write("Enter Your Name: ");
+            //string? inputName = Console.ReadLine();
+            //Console.WriteLine(inputName);
+
+            Console.Write("Enter Value 1: ");
+            var inputV1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter Value 2: ");
+            var inputV2 = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine($"Addition (+): {inputV1 + inputV2}");
+            Console.WriteLine($"Substraction (-): {inputV1 - inputV2}");
+            Console.WriteLine($"Multiplication (x): {inputV1 * inputV2}");
+            Console.WriteLine($"Division (/): {inputV1 / inputV2}");
+            Console.WriteLine($"Remainder (%): {inputV1 % inputV2}");
+
         } // ENd of main method scope
     }
 }

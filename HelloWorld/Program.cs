@@ -247,17 +247,38 @@ namespace HelloWorld
             //string? inputName = Console.ReadLine();
             //Console.WriteLine(inputName);
 
-            Console.Write("Enter Value 1: ");
-            var inputV1 = Convert.ToDouble(Console.ReadLine());
+            //Console.Write("Enter Value 1: ");
+            //var inputV1 = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Enter Value 2: ");
-            var inputV2 = Convert.ToDouble(Console.ReadLine());
+            //Console.Write("Enter Value 2: ");
+            //var inputV2 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine($"Addition (+): {inputV1 + inputV2}");
-            Console.WriteLine($"Substraction (-): {inputV1 - inputV2}");
-            Console.WriteLine($"Multiplication (x): {inputV1 * inputV2}");
-            Console.WriteLine($"Division (/): {inputV1 / inputV2}");
-            Console.WriteLine($"Remainder (%): {inputV1 % inputV2}");
+            //Console.WriteLine($"Addition (+): {inputV1 + inputV2}");
+            //Console.WriteLine($"Substraction (-): {inputV1 - inputV2}");
+            //Console.WriteLine($"Multiplication (x): {inputV1 * inputV2}");
+            //Console.WriteLine($"Division (/): {inputV1 / inputV2}");
+            //Console.WriteLine($"Remainder (%): {inputV1 % inputV2}");
+
+            // C# Control Statement
+            // if () { } statement
+            var var1 = 10;
+
+            if (var1 == 10 && var1 < 9)
+            //if (false)
+            { // scope of if starts
+                Console.WriteLine("if statement 1 is true");
+                Console.WriteLine("if statement 2 is true");
+                Console.WriteLine("if statement 3 is true");
+            } // scope of if ends
+            else
+            {
+                Console.WriteLine("if statement is false and this is else 1");
+                Console.WriteLine("if statement is false and this is else 2");
+                Console.WriteLine("if statement is false and this is else 3");
+            }
+
+            Console.WriteLine("This statement does not belong with above if!");
+
 
         } // ENd of main method scope
     }

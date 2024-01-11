@@ -277,6 +277,32 @@ namespace HelloWorld
                 Console.WriteLine("if statement is false and this is else 3");
             }
 
+            // Nested if () { } statements
+
+            var userName = "aijaz";
+            var pass = "123";
+
+            if (userName == "aijaz")
+            { // Outer if scope
+                if (pass == "123")
+                { // Inner if scope
+
+                    Console.WriteLine($"You are authenticated! WELCOME {userName}");
+
+                } // End Inner if scope
+                else
+                {
+                    Console.WriteLine("INVALID password!");
+                }
+
+            } // End Outer if scope
+            else
+            {
+                Console.WriteLine("INVALID username!");
+            }
+
+
+
             Console.WriteLine("This statement does not belong with above if!");
 
 

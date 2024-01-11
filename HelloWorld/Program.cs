@@ -263,7 +263,7 @@ namespace HelloWorld
             // if () { } statement
             var var1 = 10;
 
-            if (var1 == 10 && var1 < 9)
+            if (var1 ==10  || var1 > 9)
             //if (false)
             { // scope of if starts
                 Console.WriteLine("if statement 1 is true");
@@ -281,5 +281,7 @@ namespace HelloWorld
 
 
         } // ENd of main method scope
+ 
+
     }
 }

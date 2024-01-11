@@ -261,46 +261,106 @@ namespace HelloWorld
 
             // C# Control Statement
             // if () { } statement
-            var var1 = 10;
+            //var var1 = 10;
 
-            if (var1 == 10 && var1 < 9)
-            //if (false)
-            { // scope of if starts
-                Console.WriteLine("if statement 1 is true");
-                Console.WriteLine("if statement 2 is true");
-                Console.WriteLine("if statement 3 is true");
-            } // scope of if ends
-            else
-            {
-                Console.WriteLine("if statement is false and this is else 1");
-                Console.WriteLine("if statement is false and this is else 2");
-                Console.WriteLine("if statement is false and this is else 3");
-            }
+            //if (var1 == 10 && var1 < 9)
+            ////if (false)
+            //{ // scope of if starts
+            //    Console.WriteLine("if statement 1 is true");
+            //    Console.WriteLine("if statement 2 is true");
+            //    Console.WriteLine("if statement 3 is true");
+            //} // scope of if ends
+            //else
+            //{
+            //    Console.WriteLine("if statement is false and this is else 1");
+            //    Console.WriteLine("if statement is false and this is else 2");
+            //    Console.WriteLine("if statement is false and this is else 3");
+            //}
 
             // Nested if () { } statements
 
-            var userName = "aijaz";
-            var pass = "123";
+            //var userName = "aijaz";
+            //var pass = "123";
 
-            if (userName == "aijaz")
-            { // Outer if scope
-                if (pass == "123")
-                { // Inner if scope
+            //if (userName == "aijaz")
+            //{ // Outer if scope
+            //    if (pass == "123")
+            //    { // Inner if scope
 
-                    Console.WriteLine($"You are authenticated! WELCOME {userName}");
+            //        Console.WriteLine($"You are authenticated! WELCOME {userName}");
 
-                } // End Inner if scope
-                else
-                {
-                    Console.WriteLine("INVALID password!");
-                }
+            //    } // End Inner if scope
+            //    else
+            //    {
+            //        Console.WriteLine("INVALID password!");
+            //    }
 
-            } // End Outer if scope
-            else
+            //} // End Outer if scope
+            //else
+            //{
+            //    Console.WriteLine("INVALID username!");
+            //}
+
+
+            // IF-else-if ladder Statement
+            //char grade = 'B';
+
+            //if (grade == 'A')
+            //{
+            //    Console.WriteLine("Grade A");
+            //}
+            //else if (grade == 'B')
+            //{
+            //    Console.WriteLine("Grade B");
+            //}
+            //else if (grade == 'C')
+            //{
+            //    Console.WriteLine("Grade C");
+            //}
+            //else if (grade == 'D')
+            //{
+            //    Console.WriteLine("Grade D");
+            //}
+            //else if (grade == 'E')
+            //{
+            //    Console.WriteLine("Grade E");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("SORRY! no Grading could matched!");
+            //}
+
+
+            int num = 49;
+
+            if (num < 0 || num > 100)
             {
-                Console.WriteLine("INVALID username!");
+                Console.WriteLine("wrong number");
             }
-
+            else if (num >= 0 && num < 50)
+            {
+                Console.WriteLine("Fail");
+            }
+            else if (num >= 50 && num < 60)
+            {
+                Console.WriteLine("D Grade");
+            }
+            else if (num >= 60 && num < 70)
+            {
+                Console.WriteLine("C Grade");
+            }
+            else if (num >= 70 && num < 80)
+            {
+                Console.WriteLine("B Grade");
+            }
+            else if (num >= 80 && num < 90)
+            {
+                Console.WriteLine("A Grade");
+            }
+            else if (num >= 90 && num <= 100)
+            {
+                Console.WriteLine("A+ Grade");
+            }
 
 
             Console.WriteLine("This statement does not belong with above if!");

@@ -279,27 +279,27 @@ namespace HelloWorld
 
             // Nested if () { } statements
 
-            //var userName = "aijaz";
-            //var pass = "123";
+            var userName = "aijaz";
+            var pass = "123";
 
-            //if (userName == "aijaz")
-            //{ // Outer if scope
-            //    if (pass == "123")
-            //    { // Inner if scope
+            if (userName == "aijaz")
+            { // Outer if scope
+                if (pass == "123")
+                { // Inner if scope
 
-            //        Console.WriteLine($"You are authenticated! WELCOME {userName}");
+                    Console.WriteLine($"You are authenticated! WELCOME {userName}");
 
-            //    } // End Inner if scope
-            //    else
-            //    {
-            //        Console.WriteLine("INVALID password!");
-            //    }
+                } // End Inner if scope
+                else
+                {
+                    Console.WriteLine("INVALID password!");
+                }
 
-            //} // End Outer if scope
-            //else
-            //{
-            //    Console.WriteLine("INVALID username!");
-            //}
+            } // End Outer if scope
+            else
+            {
+                Console.WriteLine("INVALID username!");
+            }
 
 
             // IF-else-if ladder Statement
@@ -362,8 +362,41 @@ namespace HelloWorld
                 Console.WriteLine("A+ Grade");
             }
 
+            // Start switch statement
 
-            Console.WriteLine("This statement does not belong with above if!");
+            var myGrade = '#';
+
+            switch (myGrade)
+            {
+                case 'A':
+                case '$':
+                    Console.WriteLine("switch Grade A");
+                    break;
+
+                case 'B':
+                case '*':
+                    Console.WriteLine("switch Grade B");
+                    break;
+
+                case 'C':
+                    Console.WriteLine("switch Grade C");
+                    Console.WriteLine("switch Grade C 2nd statement");
+                    break;
+
+                case 'D':
+                    Console.WriteLine("switch Grade D");
+                    break;
+
+                case 'F':
+                    Console.WriteLine("switch Grade F");
+                    break;
+
+                default:
+                    Console.WriteLine("No case with any grade could be matched!");
+                    break;
+            }
+            
+            Console.WriteLine("This statement does not belong with above switch!");
 
 
         } // ENd of main method scope

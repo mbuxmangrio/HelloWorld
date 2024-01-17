@@ -279,27 +279,27 @@ namespace HelloWorld
 
             // Nested if () { } statements
 
-            var userName = "aijaz";
-            var pass = "123";
+            //var userName = "aijaz";
+            //var pass = "123";
 
-            if (userName == "aijaz")
-            { // Outer if scope
-                if (pass == "123")
-                { // Inner if scope
+            //if (userName == "aijaz")
+            //{ // Outer if scope
+            //    if (pass == "123")
+            //    { // Inner if scope
 
-                    Console.WriteLine($"You are authenticated! WELCOME {userName}");
+            //        Console.WriteLine($"You are authenticated! WELCOME {userName}");
 
-                } // End Inner if scope
-                else
-                {
-                    Console.WriteLine("INVALID password!");
-                }
+            //    } // End Inner if scope
+            //    else
+            //    {
+            //        Console.WriteLine("INVALID password!");
+            //    }
 
-            } // End Outer if scope
-            else
-            {
-                Console.WriteLine("INVALID username!");
-            }
+            //} // End Outer if scope
+            //else
+            //{
+            //    Console.WriteLine("INVALID username!");
+            //}
 
 
             // IF-else-if ladder Statement
@@ -395,7 +395,32 @@ namespace HelloWorld
                     Console.WriteLine("No case with any grade could be matched!");
                     break;
             }
-            
+
+            // user password code using switch statement.
+
+            var suserName = "aijaz";
+            var spass = "123";
+
+            switch (suserName)
+            {
+                case "aijaz":
+                    switch (spass)
+                    {
+                        case "123":
+                            Console.WriteLine($"You are authenticated! WELCOME {suserName}");
+                            break;
+
+                        default:
+                            Console.WriteLine("INAVLID password!");
+                            break;
+                    }
+                    break;
+
+                default:
+                    Console.WriteLine("INAVLID username!");
+                    break;
+            }
+
             Console.WriteLine("This statement does not belong with above switch!");
 
 

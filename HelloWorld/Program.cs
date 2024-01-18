@@ -421,6 +421,42 @@ namespace HelloWorld
                     break;
             }
 
+            // for loop
+
+
+            //for (var index1 = 1; index1 <= 5; index1++)
+            //{
+            //    Console.WriteLine($"for loop statement: {index1}");
+            //}
+
+            //var index2 = 10;
+            //for (; index2 >= 1; index2--)
+            //{
+            //    Console.WriteLine($"for loop statement: {index2}");
+            //}
+
+
+
+            //var index3 = 3;
+            //for (; index3 <= 30; index3+=3)
+            //{
+            //    Console.WriteLine($"for loop statement: {index3}");
+            //}
+
+
+            //var index4 = 1;
+            //for (; index4 <= 20 ;)
+            //{
+            //    Console.WriteLine($"for loop statement: {index4}");
+            //    index4++;
+            //}
+
+            //for(; ; )
+            //{
+            //    Console.WriteLine("Infinite for loop is runing!");
+            //}
+
+
             Console.WriteLine("This statement does not belong with above switch!");
 
 

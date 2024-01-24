@@ -456,6 +456,60 @@ namespace HelloWorld
             //    Console.WriteLine("Infinite for loop is runing!");
             //}
 
+            // while loop
+            //var index5 = 2;
+
+            //while (index5 <= 20)
+            //{
+            //    Console.WriteLine($"while loop statement {index5}");
+            //    index5 += 2;
+            //}
+
+
+            //var index6 = 1;
+            //do
+            //{
+            //    Console.WriteLine($"do-while loop statement {index6}");
+            //    index6++;
+
+            //} while (index6 >= 10);
+
+
+
+            // jump break statement/keyword inside for loop.
+            //for(var index7 = 1; index7 <= 10; index7++)
+            //{
+            //    Console.WriteLine($"for statement: {index7}");
+
+            //    if(index7 >= 5)
+            //    {
+            //        break;
+            //    }
+            //    //...
+            //} // exit
+
+            // continue statement/c# keyword
+
+            //for(var index8 = 1; index8 <= 20; index8++)
+            //{
+            //    if(index8 == 5 || index8 <= 15)
+            //    {
+            //        continue;
+            //    }
+            //    //..
+            //    //...
+            //    //.. skip 
+            //    Console.WriteLine($"Statement inside for loop: {index8}");
+            //}
+
+
+            //csharp:
+            //Console.WriteLine("I am C#");
+
+            //Console.WriteLine("I am Java");
+
+            //Console.WriteLine("I am PHP");
+
 
             Console.WriteLine("This statement does not belong with above switch!");
 
